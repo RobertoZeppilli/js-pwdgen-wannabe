@@ -18,8 +18,12 @@ var userSurname = prompt('Il tuo cognome?');
 var favoriteColor = prompt('Il tuo colore preferito?');
 // console.log(favoriteColor);
 
+// .3.1
+var passwordNumber = 21;
+// console.log(passwordNumber);
+
 // .bonus
-const password = userName + userSurname + favoriteColor + 21;
+const password = userName + userSurname + favoriteColor + passwordNumber;
 // console.log(password);
 
 // .4
