@@ -8,15 +8,16 @@
 
 // .1
 var userName = prompt('Come ti chiami?');
-console.log(userName);
+// console.log(userName);
 
 // .2
 var userSurname = prompt('Il tuo cognome?');
-console.log(userSurname);
+// console.log(userSurname);
 
 // .3
 var favoriteColor = prompt('Il tuo colore preferito?');
-console.log(favoriteColor);
+// console.log(favoriteColor);
 
 // .4
-document.getElementById('password').innerHTML = userName + userSurname + favoriteColor + '21';
+document.getElementById('password').innerHTML = userName + userSurname + favoriteColor + 21;
+// console.log(document.getElementById('password'));
