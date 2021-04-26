@@ -18,6 +18,10 @@ var userSurname = prompt('Il tuo cognome?');
 var favoriteColor = prompt('Il tuo colore preferito?');
 // console.log(favoriteColor);
 
+// .bonus
+const password = userName + userSurname + favoriteColor + 21;
+// console.log(password);
+
 // .4
-document.getElementById('password').innerHTML = userName.toLowerCase() + userSurname.toLowerCase() + favoriteColor.toLowerCase() + 21;
+document.getElementById('password').innerHTML = password.toLowerCase();
 // console.log(document.getElementById('password'));
