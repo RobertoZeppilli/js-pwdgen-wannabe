@@ -19,5 +19,5 @@ var favoriteColor = prompt('Il tuo colore preferito?');
 // console.log(favoriteColor);
 
 // .4
-document.getElementById('password').innerHTML = userName + userSurname + favoriteColor + 21;
+document.getElementById('password').innerHTML = userName.toLowerCase() + userSurname.toLowerCase() + favoriteColor.toLowerCase() + 21;
 // console.log(document.getElementById('password'));
